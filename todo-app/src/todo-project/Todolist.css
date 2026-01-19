@@ -1,0 +1,52 @@
+.task-container,
+.input-button-container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 300px 200px 100px;
+  margin-bottom: 20px;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  text-align: start;
+  justify-items: center;
+  align-items: center;
+}
+
+.input-message::placeholder {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+
+button {
+  font-family: arial;
+  border: none;
+  width: 100px;
+  background-color: rgb(2, 68, 131);
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.input-message,
+.input-date {
+  border-radius: 8px;
+  border-color: rgb(62, 122, 175);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.input-date {
+  font-family: arial;
+  font-size: 15px;
+}
+
+.task-message,
+.task-duration {
+  font-family: arial;
+  width: auto;
+  display: flex;
+  align-content: center;
+  color: gray;
+}
